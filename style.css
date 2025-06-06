@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F4F5FB;
+    width: 100vw;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 0 1vw 0 1vw;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.logo img {
+    width: 1.5rem;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2vh 0 2vh 0;
+}
+
+.logo h1 {
+    color: #374151;
+}
+
+.top {
+    font-family: 'Inter';
+    margin: 2vh 0 2vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.top img {
+    width: 1.3vh;
+}
+
+.top p {
+    color: #CA3884;
+}
+
+
+#rosa {
+    background-color: #CA3884;
+    color: white;
+    border: #CA3884;
+    border-radius: 1vh;
+    padding: 0.7rem 1.1rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.add input {
+    width: 40vw;
+    border: 2px solid #D1D5DB;
+    border-radius: 1vh;
+    padding: 0.7rem 1rem;
+}
+
+.add {
+    display: flex;
+    gap: 1.5vh;
+}
+
+.a,
+.b {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.item {
+    background-color: #fff;
+    border: #ffffff solid;
+    border-radius: 1vh;
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+#deletar {
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: transparent;
+    /* width: 51vw; */
+    width: auto;
+    background-color: #C93847;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
